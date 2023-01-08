@@ -1,0 +1,15 @@
+{   "manifest_version":3,
+    "name":"Tab showing Extensions",
+    "description":"List out all the tabs",
+    "version":"1.0",
+    "action":{
+        "default_popup":"hello.html"
+    },
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "tabs"
+    ]
+
+}
